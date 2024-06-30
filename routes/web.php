@@ -20,5 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get('/todos',Todos::class);
+Route::get('/counter',Counter::class);
 
 
