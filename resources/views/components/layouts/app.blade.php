@@ -11,7 +11,7 @@
     	<nav>
     		
     		<a href="/posts" @class( ['current' => request()->is('posts') ] )>Posts</a>
-    		 <a href="/posts/create" @class(['current' => request()->is('posts/create')])>Create 
+    		 <a href="/posts/create" @class(['current' => request()->is('posts/create')])>Create</a> 
     	</nav>
         {{ $slot }}
     </body>

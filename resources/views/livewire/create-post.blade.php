@@ -14,6 +14,6 @@
             @error('content') <em>{{ $message }}</em>@enderror
         </label>
 
-        <button type="button">Save</button>
+        <button type="submit">Save</button>
     </form>
 </div>
