@@ -9,9 +9,9 @@
     </head>
     <body>
     	<nav>
-    		<a href="/counter" @class( ['current' => request()->is('counter') ] ) >Counter</a>
-    		<a href="/todos" @class( ['current' => request()->is('todos') ] )>Todos</a>
+    		
     		<a href="/posts" @class( ['current' => request()->is('posts') ] )>Posts</a>
+    		 <a href="/posts/create" @class(['current' => request()->is('posts/create')])>Create</a> 
     	</nav>
         {{ $slot }}
     </body>
